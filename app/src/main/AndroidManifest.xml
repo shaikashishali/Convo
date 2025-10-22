@@ -1,0 +1,19 @@
+<manifest package="com.convo" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <application
+        android:allowBackup="true"
+        android:label="Convo"
+        android:roundIcon="@drawable/ic_dummy"
+        android:icon="@drawable/ic_dummy"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Convo">
+        <activity android:name="com.convo.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
